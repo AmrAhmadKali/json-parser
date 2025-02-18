@@ -38,14 +38,8 @@ or simply:
 `make afl`
 
 
-Thank You
----------
-Contributor: Joseph Carlos 
+## Findings
+With AFL++ there were in total 20 Vulnerabilities detected, among which are CWE-416: Use After Free and CWE-476: NULL Pointer Dereference.
+![image](https://github.com/user-attachments/assets/4c1711f1-daa6-4145-b795-6b742d568d41)
 
-Fuzzgoat was adapted from udp/json-parser - we chose it because:
 
-* Its not too big or cumbersome - ~1200 lines of C yet lots of paths for a fuzzer to dig into.
-* Performance: its very fast at ~1500 execs per sec per core.
-* The code is clean and very readable.
-
-Fuzz Stati0n would like to thank the creators and maintainers of udp/json-parser. 
