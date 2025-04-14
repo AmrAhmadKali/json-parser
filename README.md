@@ -39,7 +39,7 @@ or simply:
 
 
 ## Findings
-With AFL++ there were in total 20 Vulnerabilities detected, among which are CWE-416: Use After Free and CWE-476: NULL Pointer Dereference.
+With AFL++ there were in total 20 crashess detected. And after Root cause Analysis (RCA) via gdb and address sanitizer many Vulnerabilities were found, mostly based on low-level memory weeknesses like CWE-416: Use After Free and CWE-476: NULL Pointer Dereference.
 ![image](https://github.com/user-attachments/assets/4c1711f1-daa6-4145-b795-6b742d568d41)
 
 
